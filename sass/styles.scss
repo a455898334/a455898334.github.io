@@ -302,8 +302,7 @@ Hero
   position: fixed;
   width: 100%;
   z-index: 999;
-  background-color: #000;
-  opacity: 50%;
+  background-color: rgba(0, 0, 0, .5);
 }
 .fixed {
   position: fixed;
