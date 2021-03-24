@@ -652,8 +652,11 @@ Features-stack
 }
 
 .hero-2-background {
-  background: url('../img/hero-2.jpg') center center;
-  background-position: 0 0;
+  background: url('../img/hero-2.jpg') center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* ==========================================================================
