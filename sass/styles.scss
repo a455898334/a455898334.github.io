@@ -662,7 +662,23 @@ Features-stack
   -o-background-size: cover;
   background-size: cover;
   .container {
-    // background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.1);
+    color:#fff;
+    h2, h3, h5, h6, p, .time{
+      color:#fff;
+    }
+  }
+}
+
+.hero-3-background {
+  background: url('../img/eng_pics/9.jpg') center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:95vh;
+  .container {
+    background-color: rgba(0,0,0,0.1);
     color:#fff;
     h2, h3, h5, h6, p, .time{
       color:#fff;
@@ -682,7 +698,7 @@ Instagram
 /* ==========================================================================
 Engagement Pics
 ========================================================================== */
-#eng-pics {
+.eng-pics {
   img {
     width: 100%;
     height: auto;

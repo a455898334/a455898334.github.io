@@ -216,7 +216,7 @@
         padding: 0 20px;
     }
     
-    #eng-pics .img-wrap {
+    .eng-pics .img-wrap {
         border-radius: 0;
     }
 
@@ -247,7 +247,7 @@
         width:90%;
     }
 
-    #eng-pics .img-wrap i {
+    .eng-pics .img-wrap i {
         font-size: 25px;
         position: absolute;
         width: 25px;
